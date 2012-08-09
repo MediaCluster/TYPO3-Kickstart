@@ -1,2 +1,2 @@
-<INCLUDE_TYPOSCRIPT: source="fileadmin/templates/main/ts/02_extension_configuration/plugin.seo_basics.ts">
-<INCLUDE_TYPOSCRIPT: source="fileadmin/templates/main/ts/02_extension_configuration/plugin.t3jquery.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/main/ts/02_extension_configuration/plugin.seo_basics.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE: fileadmin/templates/main/ts/02_extension_configuration/plugin.t3jquery.ts">
