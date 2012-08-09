@@ -1,0 +1,71 @@
+<!-- ###TEMPLATE_FORM1### begin -->
+###ERROR###
+<form id="contact" method="post" action="###REL_URL###" enctype="multipart/form-data">
+<fieldset>
+  <legend>###LLL:legend###</legend>
+  <input type="hidden" name="contact[submitted]" value="1" />
+  <ol>
+    <li>
+      <label for="fullname">###LLL:fullname### <span class="required">###required_fullname###</span></label>
+      <input type="text" name="contact[fullname]" id="fullname" value="###value_fullname###" required="required" />
+      ###error_fullname###
+    </li>
+    <li>
+      <label for="email">###LLL:email### <span class="required">###required_email###</span></label>
+      <input type="email" name="contact[email]" id="email" value="###value_email###" required="required" />
+      ###error_email###
+    </li>
+    <li>
+      <label for="street">###LLL:street###</label>
+      <input type="text" name="contact[street]" id="street" value="###value_street###" />
+    </li>
+    <li>
+      <label for="city">###LLL:city###</label>
+      <input type="text" name="contact[city]" id="city" value="###value_city###" />
+    </li>
+    <li>
+      <label for="tel">###LLL:tel###</label>
+      <input type="tel" name="contact[tel]" id="tel" value="###value_tel###" />
+    </li>
+    <li>
+      <label for="message">###LLL:message### <span class="required">###required_message###</span></label>
+      <textarea name="contact[message]" id="message" cols="40" rows="5" required="required">###value_message###</textarea>
+      ###error_message###
+    </li>
+  </ol>
+  <input type="submit" value="###LLL:submit###" ###submit_nextStep### />
+</fieldset>
+</form>
+<!-- ###TEMPLATE_FORM1### end -->
+
+
+<!-- ###TEMPLATE_EMAIL_USER_PLAIN### begin -->
+Hallo ###value_fullname###,
+
+Sie haben soeben das Kontaktformular auf unserer Homepage typo3.dev
+ausgefüllt, wir werden uns in Kürze mit Ihnen in Verbindung setzen.
+
+Vielen Dank,
+
+Ihr domain.de-Team
+<!-- ###TEMPLATE_EMAIL_USER_PLAIN### end -->
+
+
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### begin -->
+Auf der Homepage typo3.dev hat ###value_fullname### soeben das Kontaktformular
+ausgefüllt und folgende Angaben gemacht:
+
+###LLL:fullname###: ###value_fullname###
+###LLL:email###: ###value_email###
+###LLL:street###: ###value_street###
+###LLL:city###: ###value_city###
+###LLL:tel###: ###value_tel###
+
+###LLL:message###:
+###value_message###
+<!-- ###TEMPLATE_EMAIL_ADMIN_PLAIN### end -->
+
+<!-- ###TEMPLATE_SUBMITTEDOK### begin -->
+<h1>Vielen Dank!</h1>
+<p>Ihre Kontaktanfrage wurde erfolgreich an uns verschickt. Wir werden uns in Kürze mit Ihnen in Verbindung setzen.</p>
+<!-- ###TEMPLATE_SUBMITTEDOK### end -->

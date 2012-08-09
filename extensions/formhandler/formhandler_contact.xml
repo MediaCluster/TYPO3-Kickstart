@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+  <data type="array">
+    <languageKey index="default" type="array">
+      <label index="legend">Kontaktformular</label>
+      <label index="fullname">Ihr Name</label>
+      <label index="email">Ihre E-Mail-Adresse</label>
+      <label index="street">Straße &amp; Hausnummer</label>
+      <label index="city">PLZ / Ort</label>
+      <label index="tel">Telefon</label>
+      <label index="message">Ihre Nachricht</label>
+      <label index="submit">Nachricht verschicken</label>
+      <label index="error_fullname_required">Bitte geben Sie Ihren Namen an.</label>
+      <label index="error_email_required">Bitte geben Sie Ihre E-Mail-Adresse an.</label>
+      <label index="error_email_email">Bitte geben Sie eine korrekte E-Mail-Adresse an.</label>
+      <label index="error_message_required">Bitte geben Sie Ihre Nachricht ein.</label>
+    </languageKey>
+  </data>
+</T3locallang>
