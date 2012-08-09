@@ -1,0 +1,26 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+/*
+ *    __  __          _ _        ____ _           _            
+ *   |  \/  | ___  __| (_) __ _ / ___| |_   _ ___| |_ ___ _ __ 
+ *   | |\/| |/ _ \/ _` | |/ _` | |   | | | | / __| __/ _ \ '__|
+ *   | |  | |  __/ (_| | | (_| | |___| | |_| \__ \ ||  __/ |   
+ *   |_|  |_|\___|\__,_|_|\__,_|\____|_|\__,_|___/\__\___|_|   
+ *
+ *       PROGRESSIVE SCIENCE OF MULTIMEDIA TECHNOLOGIES
+ */
+
+
+/* TEAM */
+  TYPO3 Integrator: Your Name
+  Site: www.DOMAIN.de
+  Twitter: 
+  Location: Germany
+
+/* SITE */
+  Last update: 201X/0X/0X
+  Standards: HTML5, CSS3
+  CMS: TYPO3
+  Components: jQuery
+  Software: GIMP, Vim

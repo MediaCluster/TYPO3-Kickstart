@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /t3lib/
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/
+
+Sitemap: /sitemap.xml
